@@ -3,9 +3,9 @@
 In this project i was able to create my own responsive online portfolio using bootstrap in chich i created 3 pages with their own functions. Tis is one of my beginner projects in which i get to look back on in the future and laugh.
 
 ## Image of the Website
-![About me page](Screenshot(6).png)
-![Portfolio](Screenshot(7).png)
-![Contact page](Screenshot(7).png)
+![About me page](images/about.png)
+![Portfolio](images/port.png)
+![Contact page](images/cont.png)
 
 ## Built With
 
