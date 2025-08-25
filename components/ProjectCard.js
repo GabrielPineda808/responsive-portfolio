@@ -1,16 +1,19 @@
 export default function ProjectCard({ repo }) {
   return (
     <a
-      href={repo.link}
+      href={repo.url}
       target="_blank"
       rel="noopener noreferrer"
-      className="block border rounded-lg p-4 hover:shadow-lg transition-shadow"
+      className="block border border-gray-700 rounded-lg p-6 bg-[#112240] hover:bg-[#1a3553] transition-colors"
     >
-      <h3 className="text-xl font-semibold mb-2">{repo.repo}</h3>
+      <h3 className="text-xl font-semibold text-gray-100 mb-2">{repo.repo}</h3>
       {repo.description && (
-        <p className="mb-4 text-sm text-gray-600">{repo.description}</p>
+        <p className="mb-4 text-sm text-gray-400">{repo.description}</p>
       )}
-      <div className="text-sm text-gray-500">⭐ {repo.stars} &nbsp; ⑂ {repo.forks}</div>
+      <div className="flex justify-between text-sm text-gray-500">
+        <span>{repo.language}</span>
+        <span>⭐ {repo.stars} • ⑂ {repo.forks}</span>
+      </div>
     </a>
   )
 }

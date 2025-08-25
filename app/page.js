@@ -7,13 +7,13 @@ export default function Home() {
   return (
     <main>
       <Navbar />
-      <section id="about" className="container mx-auto px-4 py-16">
+      <section id="about" className="container mx-auto max-w-4xl px-4 py-16">
         <About />
       </section>
-      <section id="skills" className="container mx-auto px-4 py-16 bg-gray-100">
+      <section id="skills" className="container mx-auto max-w-4xl px-4 py-16">
         <Skills />
       </section>
-      <section id="projects" className="container mx-auto px-4 py-16">
+      <section id="projects" className="container mx-auto max-w-4xl px-4 py-16">
         <Projects />
       </section>
     </main>
