@@ -1,47 +1,25 @@
-# Respnsive Portfolio
+# Gabriel Pineda Portfolio
 
-In this project i was able to create my own responsive online portfolio using bootstrap in chich i created 3 pages with their own functions. Tis is one of my beginner projects in which i get to look back on in the future and laugh.
+A modern, responsive single-page portfolio built with **Next.js**, **React**, and **Tailwind CSS**. The site highlights pinned GitHub projects and core technical skills.
 
-## Image of the Website
-![About me page](images/about.png)
-![Portfolio](images/port.png)
-![Contact page](images/cont.png)
+## Getting Started
 
-## Built With
+1. Install dependencies
+   ```bash
+   npm install
+   ```
+2. Start the development server
+   ```bash
+   npm run dev
+   ```
 
-* [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
-* [BOOTSTRAP](https://getbootstrap.com/)
+## Available Scripts
 
-## Code Snippet
-    Below is the code used for the navbar i created with the help of bootstrap. AT any screen size above 992px the navbar will be in full length but any screen under that size is where the navbar will collapse into a button which then you press to show the navbar items
+- `npm run dev` – start local development server
+- `npm run build` – create production build
+- `npm run start` – run production build
+- `npm run lint` – run ESLint
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <span class="navbar-brand mb-0 h1 bg-dark text-light">Gabriel Pineda</span>
-      
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <section class="collapse navbar-collapse " id="collapsibleNavbar">
-        <ul class="navbar-nav ml-auto ">
-          <li class="nav-item">
-            <a class="nav-link active text-dark" href="contact.html">Contact </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-black-50" href="portfolio.html">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-black-50" href="index.html">About</a>
-          </li>
-        </ul>
-      </section>
-  </nav>
+Set the `NEXT_PUBLIC_GITHUB_USERNAME` environment variable to your GitHub username so the projects section can fetch your pinned repositories.
 
-
-
-
-## Authors
-
-* **Gabriel Pineda** 
-
-- [Link to Github](https://github.com/GabrielPineda808)
-- [Link to LinkedIn](https://www.linkedin.com/in/gabriel-pineda-a94535195/)
+Feel free to customize the copy in `data/about.js` and the skills listed in `data/skills.js` to better match your background.
